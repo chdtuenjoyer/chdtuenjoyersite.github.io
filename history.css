@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@900&display=swap');
+.container{
+    display: flex;
+    font-family: 'Golos Text', sans-serif;
+    padding: 0;
+    margin: 0;
+background-color: #e5e5f7;
+opacity: 0.8;
+background-image:  linear-gradient(135deg, #bec1ff 25%, transparent 25%), linear-gradient(225deg, #bec1ff 25%, transparent 25%), linear-gradient(45deg, #bec1ff 25%, transparent 25%), linear-gradient(315deg, #bec1ff 25%, #e5e5f7 25%);
+background-position:  40px 0, 40px 0, 0 0, 0 0;
+background-size: 40px 40px;
+background-repeat: repeat;
+}
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    border: 2px solid black;
+    background-image: url("/img/headerImage.png");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 1);
+    justify-content: space-between;
+    font-family: 'Golos Text', sans-serif;
+}
+header nav {
+    display: flex;
+    color:white;
+    padding:10px 0 10px 0;
+    margin-right: 20px;
+}
+header ol{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header #cname{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    margin-left: 20px;
+   
+}
+header nav a{
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+nav a:hover{
+    background-color: white;
+    color:blue;
+}
+footer{
+    background-image: url("/img/headerImage.png");
+    background-size: cover;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 1);
+    border: 2px solid black;
+    font-family: 'Golos Text', sans-serif;
+}
+aside a{
+        text-decoration: none;
+        border-radius: 20px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+        border: 2px solid black;
+        padding: 10px 55px 10px 55px;
+        text-align: center;
+        background-color: #ffffff;
+        font-size: 20px;
+        flex-direction: column;
+        display: flex;
+        margin: 30px;
+        color: black;
+}
+
+main{
+    width: 80%;
+    border: 2px solid black;
+}
+main img{
+    
+    border: 2px solid black;
+}
+
+main p{
+    color: rgb(73, 71, 71);
+    line-height: 130%;
+}
+h1{
+    font-size: 25px;
+}
+
+#tog{
+    display: flex;
+}
+#descr{
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+#bodypart{
+    display: flex;
+}
